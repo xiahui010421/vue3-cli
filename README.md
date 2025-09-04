@@ -26,3 +26,7 @@ cd <project-name>
 npm install
 npm run dev
 ```
+
+## setup()
+- 不要与vue2弄混,vue2可以访问到vue3 的数据 但是vue3 不能
+- setup不能async 是一个被promise包裹的对象
