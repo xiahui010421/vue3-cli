@@ -30,3 +30,10 @@ npm run dev
 ## setup()
 - 不要与vue2弄混,vue2可以访问到vue3 的数据 但是vue3 不能
 - setup不能async 是一个被promise包裹的对象
+
+## ref
+- 基本类型
+- refimpl  refernce / implement 普通的字符串变成响应式数据, ref加工之后会变成实例对象,要用object.value
+- 但是在显示的时候 不需要.value 他会自己解析refimpl
+- 对象类型
+- 
