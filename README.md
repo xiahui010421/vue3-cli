@@ -1,24 +1,28 @@
-# vue3-cli
+# VUE3
+vue3....
 
-## Project setup
+## tree shaking
+
+## vue3的
+- 可以支持TS
+- proxy
+- 打包 渲染 内存
+- composition API
+
+## 创建vue3
+- cue-cli
 ```
+vue --version
+vue create vue3-cli
+
+```
+- vite - 新一代前端构建工具 - 原本是webpack - grunt - gulp
+开发环境中,无需打包 可以快速冷启动
+清凉快速热重载
+真正的按需编译
+```
+npm init vite-app <project-name>
+cd <project-name>
 npm install
+npm run dev
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
